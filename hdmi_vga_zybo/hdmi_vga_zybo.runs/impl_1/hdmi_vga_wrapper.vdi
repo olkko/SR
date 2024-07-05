@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Apr 25 17:32:53 2024
+# Process ID: 1624
+# Current directory: C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1
+# Command line: vivado.exe -log hdmi_vga_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hdmi_vga_wrapper.tcl -notrace
+# Log file: C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1/hdmi_vga_wrapper.vdi
+# Journal file: C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.runs/impl_1\vivado.jou
+# Running On: DESKTOP-1I6S9IF, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8361 MB
+#-----------------------------------------------------------
+source hdmi_vga_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 393.477 ; gain = 69.109
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/USER/Desktop/SR/vivado-library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+Command: link_design -top hdmi_vga_wrapper -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0.dcp' for cell 'hdmi_vga_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/hdmi_vga_dvi2rgb_0_0.dcp' for cell 'hdmi_vga_i/dvi2rgb_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_rgb2vga_0_0/hdmi_vga_rgb2vga_0_0.dcp' for cell 'hdmi_vga_i/rgb2vga_0'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 878.660 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 386 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: hdmi_vga_i/dvi2rgb_0/U0/GenerateDebug.ILA_PixClkx UUID: f7be00e0-8dd0-5d11-87f8-3ac9dde6e10d 
+INFO: [Chipscope 16-324] Core: hdmi_vga_i/dvi2rgb_0/U0/GenerateDebug.ILA_RefClkx UUID: 88f563cd-4e15-519c-b3cd-92bfba70cafb 
+Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/ila_refclk/ila_v6_2/constraints/ila.xdc] for cell 'hdmi_vga_i/dvi2rgb_0/U0/GenerateDebug.ILA_RefClkx/inst'
+Finished Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/ila_refclk/ila_v6_2/constraints/ila.xdc] for cell 'hdmi_vga_i/dvi2rgb_0/U0/GenerateDebug.ILA_RefClkx/inst'
+Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/ila_pixclk/ila_v6_2/constraints/ila.xdc] for cell 'hdmi_vga_i/dvi2rgb_0/U0/GenerateDebug.ILA_PixClkx/inst'
+Finished Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/ila_pixclk/ila_v6_2/constraints/ila.xdc] for cell 'hdmi_vga_i/dvi2rgb_0/U0/GenerateDebug.ILA_PixClkx/inst'
+Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'hdmi_vga_i/dvi2rgb_0/U0'
+Finished Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/dvi2rgb.xdc] for cell 'hdmi_vga_i/dvi2rgb_0/U0'
+Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0_board.xdc] for cell 'hdmi_vga_i/clk_wiz_0/inst'
+Finished Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0_board.xdc] for cell 'hdmi_vga_i/clk_wiz_0/inst'
+Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0.xdc] for cell 'hdmi_vga_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1599.840 ; gain = 561.152
+Finished Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_clk_wiz_0_0/hdmi_vga_clk_wiz_0_0.xdc] for cell 'hdmi_vga_i/clk_wiz_0/inst'
+Parsing XDC File [C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.srcs/constrs_1/imports/hdmi_vga_zybo_src/Zybo_HDMI.xdc]
+Finished Parsing XDC File [C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.srcs/constrs_1/imports/hdmi_vga_zybo_src/Zybo_HDMI.xdc]
+Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/ila_timing_workaround.xdc] for cell 'hdmi_vga_i/dvi2rgb_0/U0'
+Finished Parsing XDC File [c:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/src/ila_timing_workaround.xdc] for cell 'hdmi_vga_i/dvi2rgb_0/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1599.840 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 200 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 192 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+17 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1599.840 ; gain = 1125.813
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1599.840 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-2] Deriving generated clocks
+Ending Cache Timing Information Task | Checksum: 2462ef9da
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.316 . Memory (MB): peak = 1623.813 ; gain = 23.973

@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Jun 12 14:52:14 2024
+# Process ID: 12172
+# Current directory: C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12868 C:\Users\user\Desktop\rosaClone\SR-2024S\lab07\mass_centroid\mass_centroid.xpr
+# Log file: C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/vivado.log
+# Journal file: C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid\vivado.jou
+# Running On: DESKTOP-DM7F4MG, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 2, Host memory: 8476 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.srcs/sources_1/new/draw_circle.v] -no_script -reset -force -quiet
+remove_files  C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.srcs/sources_1/new/draw_circle.v
+export_ip_user_files -of_objects  [get_files C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.srcs/sources_1/new/draw_rectangle.v] -no_script -reset -force -quiet
+remove_files  C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.srcs/sources_1/new/draw_rectangle.v
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.runs/impl_1/hdmi_vga_wrapper.bit} [get_hw_devices xc7z010_1]
+set_property PROBES.FILE {C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.runs/impl_1/hdmi_vga_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.runs/impl_1/hdmi_vga_wrapper.ltx} [get_hw_devices xc7z010_1]
+current_hw_device [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+set_property PROBES.FILE {C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.runs/impl_1/hdmi_vga_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property FULL_PROBES.FILE {C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.runs/impl_1/hdmi_vga_wrapper.ltx} [get_hw_devices xc7z010_1]
+set_property PROGRAM.FILE {C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.runs/impl_1/hdmi_vga_wrapper.bit} [get_hw_devices xc7z010_1]
+program_hw_devices [get_hw_devices xc7z010_1]
+refresh_hw_device [lindex [get_hw_devices xc7z010_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"hdmi_vga_i/dvi2rgb_0/U0/GenerateDebug.ILA_PixClkx"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z010_1] -filter {CELL_NAME=~"hdmi_vga_i/dvi2rgb_0/U0/GenerateDebug.ILA_RefClkx"}]]
+update_module_reference hdmi_vga_vp_0_0
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.srcs/sources_1/new/otwzamk.v] -no_script -reset -force -quiet
+remove_files  C:/Users/user/Desktop/rosaClone/SR-2024S/lab07/mass_centroid/mass_centroid.srcs/sources_1/new/otwzamk.v

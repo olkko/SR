@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat May 25 00:29:46 2024
+# Process ID: 10044
+# Current directory: C:/Users/USER/Downloads/Lab6_RGB_YCbCr/Lab6_RGB_YCbCr/dzialajacy_tor_wizyjny.srcs/utils_1/imports/synth_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3012 C:\Users\USER\Downloads\Lab6_RGB_YCbCr\Lab6_RGB_YCbCr\dzialajacy_tor_wizyjny.srcs\utils_1\imports\synth_1\vp.dcp
+# Log file: C:/Users/USER/Downloads/Lab6_RGB_YCbCr/Lab6_RGB_YCbCr/dzialajacy_tor_wizyjny.srcs/utils_1/imports/synth_1/vivado.log
+# Journal file: C:/Users/USER/Downloads/Lab6_RGB_YCbCr/Lab6_RGB_YCbCr/dzialajacy_tor_wizyjny.srcs/utils_1/imports/synth_1\vivado.jou
+# Running On: DESKTOP-1I6S9IF, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8361 MB
+#-----------------------------------------------------------
+start_gui
+open_checkpoint C:/Users/USER/Downloads/Lab6_RGB_YCbCr/Lab6_RGB_YCbCr/dzialajacy_tor_wizyjny.srcs/utils_1/imports/synth_1/vp.dcp

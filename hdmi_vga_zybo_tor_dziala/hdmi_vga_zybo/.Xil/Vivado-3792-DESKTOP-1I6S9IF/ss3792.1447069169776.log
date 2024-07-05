@@ -1,0 +1,12 @@
+srcscan starts
+INFO: analyzing module hdmi_vga (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:hdmi_vga
+END of tops
+c:/Users/USER/Desktop/SR/project copy/hdmi_vga_zybo_tor_dziala/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/synth/hdmi_vga.v(13): INFO: compiling module 'hdmi_vga_default' (VERI-1018)
+c:/Users/USER/Desktop/SR/project copy/hdmi_vga_zybo_tor_dziala/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/synth/hdmi_vga.v(94): WARNING: Module <hdmi_vga_clk_wiz_0_0> not found while processing module instance <clk_wiz_0> (VERI-1063)
+c:/Users/USER/Desktop/SR/project copy/hdmi_vga_zybo_tor_dziala/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/synth/hdmi_vga.v(97): WARNING: Module <hdmi_vga_dvi2rgb_0_0> not found while processing module instance <dvi2rgb_0> (VERI-1063)
+c:/Users/USER/Desktop/SR/project copy/hdmi_vga_zybo_tor_dziala/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/synth/hdmi_vga.v(116): WARNING: Module <hdmi_vga_rgb2vga_0_0> not found while processing module instance <rgb2vga_0> (VERI-1063)
+c:/Users/USER/Desktop/SR/project copy/hdmi_vga_zybo_tor_dziala/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/synth/hdmi_vga.v(127): WARNING: Module <hdmi_vga_xlconstant_0_1> not found while processing module instance <xlconstant_0> (VERI-1063)
+c:/Users/USER/Desktop/SR/project copy/hdmi_vga_zybo_tor_dziala/hdmi_vga_zybo/hdmi_vga_zybo.gen/sources_1/bd/hdmi_vga/synth/hdmi_vga.v(129): WARNING: Module <hdmi_vga_xlconstant_1_0> not found while processing module instance <xlconstant_1> (VERI-1063)
+srcscan exits with return value 0

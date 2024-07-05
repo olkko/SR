@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+Block Memory Generator module tb_hdmi.vp_i.median.median_context.brama.BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_hdmi.vp_i.otwierac.part_1.median_context.brama.BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module tb_hdmi.vp_i.otwierac.part_2.median_context.brama.BRAM.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+zdj/out  0.ppm saved
+zdj/out  1.ppm saved
+zdj/out  2.ppm saved
+zdj/out  3.ppm saved
+zdj/out  4.ppm saved
+zdj/out  5.ppm saved
+INFO: xsimkernel Simulation Memory Usage: 17484 KB (Peak: 17484 KB), Simulation CPU Usage: 24796 ms

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<wave_config>
+	<wave_state>
+	</wave_state>
+	<db_ref_list>
+		<db_ref path="C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1" type="auto">
+			<top_modules>
+				<top_module name="top">
+				</top_module>
+			</top_modules>
+		</db_ref>
+	</db_ref_list>
+	<WVObjectSize size="6">
+	</WVObjectSize>
+	<wvobject fp_name="hdmi_vga_i/dvi2rgb_0/U0/dbg_rDlyRst" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">hdmi_vga_i/dvi2rgb_0/U0/dbg_rDlyRst</obj_property>
+		<obj_property name="ObjectShortName">dbg_rDlyRst</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="hdmi_vga_i/dvi2rgb_0/U0/dbg_rRdyRst" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">hdmi_vga_i/dvi2rgb_0/U0/dbg_rRdyRst</obj_property>
+		<obj_property name="ObjectShortName">dbg_rRdyRst</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="hdmi_vga_i/dvi2rgb_0/U0/dbg_rMMCM_Reset" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">hdmi_vga_i/dvi2rgb_0/U0/dbg_rMMCM_Reset</obj_property>
+		<obj_property name="ObjectShortName">dbg_rMMCM_Reset</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="hdmi_vga_i/dvi2rgb_0/U0/dbg_rBUFR_Rst" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">hdmi_vga_i/dvi2rgb_0/U0/dbg_rBUFR_Rst</obj_property>
+		<obj_property name="ObjectShortName">dbg_rBUFR_Rst</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="hdmi_vga_i/dvi2rgb_0/U0/dbg_rMMCM_Locked" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">hdmi_vga_i/dvi2rgb_0/U0/dbg_rMMCM_Locked</obj_property>
+		<obj_property name="ObjectShortName">dbg_rMMCM_Locked</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+	<wvobject fp_name="hdmi_vga_i/dvi2rgb_0/U0/dbg_Clocking_aLocked" type="logic" db_ref_id="1">
+		<obj_property name="ElementShortName">hdmi_vga_i/dvi2rgb_0/U0/dbg_Clocking_aLocked</obj_property>
+		<obj_property name="ObjectShortName">dbg_Clocking_aLocked</obj_property>
+		<obj_property name="DisplayName">FullPathName</obj_property>
+		<obj_property name="Radix">HEXRADIX</obj_property>
+	</wvobject>
+</wave_config>
+

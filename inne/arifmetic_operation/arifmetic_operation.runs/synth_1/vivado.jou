@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Apr  9 12:42:33 2024
+# Process ID: 10396
+# Current directory: C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.runs/synth_1
+# Command line: vivado.exe -log add_mul.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source add_mul.tcl
+# Log file: C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.runs/synth_1/add_mul.vds
+# Journal file: C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1I6S9IF, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8361 MB
+#-----------------------------------------------------------
+source add_mul.tcl -notrace

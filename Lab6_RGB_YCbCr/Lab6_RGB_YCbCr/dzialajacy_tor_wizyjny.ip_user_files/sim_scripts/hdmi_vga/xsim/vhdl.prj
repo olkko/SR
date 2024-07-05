@@ -1,0 +1,20 @@
+vhdl xil_defaultlib  \
+"../../../bd/hdmi_vga/ipshared/69dc/src/rgb2vga.vhd" \
+"../../../bd/hdmi_vga/ip/hdmi_vga_rgb2vga_0_0/sim/hdmi_vga_rgb2vga_0_0.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/DVI_Constants.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/ChannelBond.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncAsync.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/GlitchFilter.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TWI_SlaveCtl.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/EEPROM_8b.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/InputSERDES.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/PhaseAlign.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/ResyncToBUFG.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncAsyncReset.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/SyncBase.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TMDS_Clocking.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/TMDS_Decoder.vhd" \
+"../../../../tor_wizyjny.gen/sources_1/bd/hdmi_vga/ipshared/f99d/src/dvi2rgb.vhd" \
+"../../../bd/hdmi_vga/ip/hdmi_vga_dvi2rgb_0_0/sim/hdmi_vga_dvi2rgb_0_0.vhd" \
+
+nosort

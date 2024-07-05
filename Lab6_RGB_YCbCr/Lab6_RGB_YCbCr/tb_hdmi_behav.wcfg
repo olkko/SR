@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_hdmi_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_hdmi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3,331.820 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,354.483 ns"></ZoomEndTime>
+      <Cursor1Time time="3,339.079 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="255"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wvobject fp_name="/tb_hdmi/rx_pclk" type="logic">
+      <obj_property name="ElementShortName">rx_pclk</obj_property>
+      <obj_property name="ObjectShortName">rx_pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_de" type="logic">
+      <obj_property name="ElementShortName">rx_de</obj_property>
+      <obj_property name="ObjectShortName">rx_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_hsync" type="logic">
+      <obj_property name="ElementShortName">rx_hsync</obj_property>
+      <obj_property name="ObjectShortName">rx_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_vsync" type="logic">
+      <obj_property name="ElementShortName">rx_vsync</obj_property>
+      <obj_property name="ObjectShortName">rx_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_red" type="array">
+      <obj_property name="ElementShortName">rx_red[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_red[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_green" type="array">
+      <obj_property name="ElementShortName">rx_green[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_green[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/rx_blue" type="array">
+      <obj_property name="ElementShortName">rx_blue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_blue[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_de" type="logic">
+      <obj_property name="ElementShortName">tx_de</obj_property>
+      <obj_property name="ObjectShortName">tx_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_hsync" type="logic">
+      <obj_property name="ElementShortName">tx_hsync</obj_property>
+      <obj_property name="ObjectShortName">tx_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_vsync" type="logic">
+      <obj_property name="ElementShortName">tx_vsync</obj_property>
+      <obj_property name="ObjectShortName">tx_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_red" type="array">
+      <obj_property name="ElementShortName">tx_red[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_red[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_green" type="array">
+      <obj_property name="ElementShortName">tx_green[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_green[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/tx_blue" type="array">
+      <obj_property name="ElementShortName">tx_blue[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_blue[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/sw" type="array">
+      <obj_property name="ElementShortName">sw[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider52">
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/de_in" type="logic">
+      <obj_property name="ElementShortName">de_in</obj_property>
+      <obj_property name="ObjectShortName">de_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/h_sync_in" type="logic">
+      <obj_property name="ElementShortName">h_sync_in</obj_property>
+      <obj_property name="ObjectShortName">h_sync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/v_sync_in" type="logic">
+      <obj_property name="ElementShortName">v_sync_in</obj_property>
+      <obj_property name="ObjectShortName">v_sync_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/de_out" type="logic">
+      <obj_property name="ElementShortName">de_out</obj_property>
+      <obj_property name="ObjectShortName">de_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/h_sync_out" type="logic">
+      <obj_property name="ElementShortName">h_sync_out</obj_property>
+      <obj_property name="ObjectShortName">h_sync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/v_sync_out" type="logic">
+      <obj_property name="ElementShortName">v_sync_out</obj_property>
+      <obj_property name="ObjectShortName">v_sync_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/rgb_pixel" type="array">
+      <obj_property name="ElementShortName">rgb_pixel[23:0]</obj_property>
+      <obj_property name="ObjectShortName">rgb_pixel[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/ycbcr_pixel" type="array">
+      <obj_property name="ElementShortName">ycbcr_pixel[23:0]</obj_property>
+      <obj_property name="ObjectShortName">ycbcr_pixel[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A11" type="array">
+      <obj_property name="ElementShortName">A11[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A11[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A12" type="array">
+      <obj_property name="ElementShortName">A12[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A12[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A13" type="array">
+      <obj_property name="ElementShortName">A13[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A13[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A21" type="array">
+      <obj_property name="ElementShortName">A21[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A21[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A22" type="array">
+      <obj_property name="ElementShortName">A22[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A22[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A23" type="array">
+      <obj_property name="ElementShortName">A23[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A23[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A31" type="array">
+      <obj_property name="ElementShortName">A31[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A31[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A32" type="array">
+      <obj_property name="ElementShortName">A32[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A32[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/A33" type="array">
+      <obj_property name="ElementShortName">A33[17:0]</obj_property>
+      <obj_property name="ObjectShortName">A33[17:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">17</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/mul_results" type="array">
+      <obj_property name="ElementShortName">mul_results[8:0][35:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_results[8:0][35:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/add_results" type="array">
+      <obj_property name="ElementShortName">add_results[4:0][8:0]</obj_property>
+      <obj_property name="ObjectShortName">add_results[4:0][8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/delayed_1" type="array">
+      <obj_property name="ElementShortName">delayed_1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">delayed_1[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/delayed_2" type="array">
+      <obj_property name="ElementShortName">delayed_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">delayed_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/delayed_2_2" type="array">
+      <obj_property name="ElementShortName">delayed_2_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">delayed_2_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/delayed_3" type="array">
+      <obj_property name="ElementShortName">delayed_3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">delayed_3[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/delayed_3_2" type="array">
+      <obj_property name="ElementShortName">delayed_3_2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">delayed_3_2[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/Y_before_delay" type="array">
+      <obj_property name="ElementShortName">Y_before_delay[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_before_delay[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/Y" type="array">
+      <obj_property name="ElementShortName">Y[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[8:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/Cb" type="array">
+      <obj_property name="ElementShortName">Cb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Cb[8:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/Cr" type="array">
+      <obj_property name="ElementShortName">Cr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Cr[8:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">0</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hdmi/vp_i/converter_i/ycbcr_pixel" type="array">
+      <obj_property name="ElementShortName">ycbcr_pixel[23:0]</obj_property>
+      <obj_property name="ObjectShortName">ycbcr_pixel[23:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group151" type="group">
+      <obj_property name="label">inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_hdmi/vp_i/converter_i/green" type="array">
+         <obj_property name="ElementShortName">green[17:0]</obj_property>
+         <obj_property name="ObjectShortName">green[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">0</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hdmi/vp_i/converter_i/red" type="array">
+         <obj_property name="ElementShortName">red[17:0]</obj_property>
+         <obj_property name="ObjectShortName">red[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">0</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_hdmi/vp_i/converter_i/blue" type="array">
+         <obj_property name="ElementShortName">blue[17:0]</obj_property>
+         <obj_property name="ObjectShortName">blue[17:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">0</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

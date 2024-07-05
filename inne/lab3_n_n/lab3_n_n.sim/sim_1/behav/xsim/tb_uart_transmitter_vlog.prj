@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../../Downloads/read_txt_file.v" \
+"../../../../../../../Downloads/uart_transmitter.v" \
+"../../../../../../../Downloads/write_txt_file.v" \
+"../../../../../../../Downloads/tb_uart_transmitter.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

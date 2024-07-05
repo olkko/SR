@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/USER/Desktop/SR/lab3_1/lab3_1.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/USER/Desktop/SR/lab3_1/lab3_1.srcs/sim_1/new/tb_state_machine.v,1710932770,verilog,,,,tb_state_machine,,,,,,,,
+C:/Users/USER/Desktop/SR/lab3_1/lab3_1.srcs/sources_1/new/load_file.v,1710973062,verilog,,C:/Users/USER/Desktop/SR/lab3_1/lab3_1.srcs/sources_1/new/save_file.v,,load_file,,,,,,,,
+C:/Users/USER/Desktop/SR/lab3_1/lab3_1.srcs/sources_1/new/save_file.v,1710971994,verilog,,C:/Users/USER/Desktop/SR/lab3_1/lab3_1.srcs/sources_1/new/state_mashine.v,,save_file,,,,,,,,
+C:/Users/USER/Desktop/SR/lab3_1/lab3_1.srcs/sources_1/new/state_mashine.v,1710970325,verilog,,C:/Users/USER/Desktop/SR/lab3_1/lab3_1.srcs/sim_1/new/tb_state_machine.v,,state_mashine,,,,,,,,

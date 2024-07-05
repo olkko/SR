@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+WARNING: file C:\Users\xdkub\Documents\AGH\semestr_6\FPGA\lab3\6_1\source_data.txt could not be opened
+Error: Unable to open file 'C:\Users\xdkub\Documents\AGH\semestr_6\FPGA\lab3\6_1\source_data.txt'
+$stop called at time : 0 fs : File "C:/Users/USER/Downloads/read_txt_file.v" Line 50

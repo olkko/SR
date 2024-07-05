@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../dzialajacy_tor_wizyjny.gen/sources_1/ip/c_add/sim/c_add.vhd" \
+
+nosort

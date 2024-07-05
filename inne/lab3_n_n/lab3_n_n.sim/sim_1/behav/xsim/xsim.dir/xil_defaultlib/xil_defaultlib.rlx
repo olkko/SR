@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/USER/Desktop/SR/lab3_n_n/lab3_n_n.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/USER/Downloads/read_txt_file.v,1712181855,verilog,,C:/Users/USER/Downloads/uart_transmitter.v,,read_txt_file,,,,,,,,
+C:/Users/USER/Downloads/tb_uart_transmitter.v,1711015284,verilog,,,,tb_uart_transmitter,,,,,,,,
+C:/Users/USER/Downloads/uart_transmitter.v,1711006014,verilog,,C:/Users/USER/Downloads/write_txt_file.v,,uart_transmitter,,,,,,,,
+C:/Users/USER/Downloads/write_txt_file.v,1711013443,verilog,,C:/Users/USER/Downloads/tb_uart_transmitter.v,,write_txt_file,,,,,,,,

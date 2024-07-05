@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.gen/sources_1/ip/c_addsub_0/sim/c_addsub_0.vhd,1712742560,vhdl,,,,c_addsub_0,,,,,,,,
+C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.gen/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,1712742557,vhdl,,,,mult_gen_0,,,,,,,,
+C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.srcs/sim_1/new/tb_add_mul.v,1712656449,verilog,,,,tb_add_mul,,,,,,,,
+C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.srcs/sources_1/new/add_mul.v,1712743418,verilog,,C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.srcs/sources_1/new/delay.v,,add_mul,,,,,,,,
+C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.srcs/sources_1/new/delay.v,1712656023,verilog,,C:/Users/USER/Desktop/SR/arifmetic_operation/arifmetic_operation.srcs/sim_1/new/tb_add_mul.v,,delay,,,,,,,,

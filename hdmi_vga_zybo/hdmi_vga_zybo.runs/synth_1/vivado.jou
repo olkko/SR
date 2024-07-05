@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Apr 25 17:31:11 2024
+# Process ID: 8652
+# Current directory: C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_1
+# Command line: vivado.exe -log hdmi_vga_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_vga_wrapper.tcl
+# Log file: C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_1/hdmi_vga_wrapper.vds
+# Journal file: C:/Users/USER/Desktop/SR/hdmi_vga_zybo/hdmi_vga_zybo.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1I6S9IF, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8361 MB
+#-----------------------------------------------------------
+source hdmi_vga_wrapper.tcl -notrace
